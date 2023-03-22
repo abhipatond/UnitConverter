@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+
+}
+
+.flex-container{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(197, 210, 177);
+    align-items: center;
+    justify-content: space-around;
+    margin: auto auto;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+.flex-container >div >h2{
+    display: flex;
+    justify-content: center;
+}
+.flex-container >div >input{
+   height: 40px;
+   font-size: 19px;
+   border:2px solid black;
+   border-radius: 6px;
+   outline: none; 
+}
